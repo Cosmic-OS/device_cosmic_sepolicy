@@ -10,12 +10,3 @@ allow sysinit shell_exec:file rx_file_perms;
 allow sysinit system_file:dir r_dir_perms;
 allow sysinit system_file:file rx_file_perms;
 allow sysinit toolbox_exec:file rx_file_perms;
-
-userdebug_or_eng(`
-    allow sysinit userinit_data_exec:file { r_file_perms relabelto };
-    allow sysinit sysfs:file rw_file_perms;
-    allow sysinit sysfs_devices_system_cpu:file write;
-    allow sysinit self:capability dac_override;
-    allow sysinit userinit_exec:file rx_file_perms;
-    set_prop(sysinit, userinit_prop)
-')
