@@ -4,5 +4,5 @@
 #
 
 BOARD_SEPOLICY_DIRS += \
-    device/gzosp/sepolicy/qcom/common \
-    device/gzosp/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
+    device/cosmic/sepolicy/qcom/common \
+    device/cosmic/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
