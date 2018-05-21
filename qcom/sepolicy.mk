@@ -1,8 +1,8 @@
 #
 # This policy configuration will be used by all qcom products
-# that inherit from AOSiP
+# that inherit from Cosmic
 #
 
 BOARD_SEPOLICY_DIRS += \
-    device/aosip/sepolicy/qcom/common \
-    device/aosip/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
+    device/cosmic/sepolicy/qcom/common \
+    device/cosmic/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)

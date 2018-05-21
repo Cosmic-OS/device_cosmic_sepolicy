@@ -1,13 +1,13 @@
 #
 # This policy configuration will be used by all products that
-# inherit from AOSiP
+# inherit from Cosmic
 #
 
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
-    device/aosip/sepolicy/common/public
+    device/cosmic/sepolicy/common/public
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/aosip/sepolicy/common/private
+    device/cosmic/sepolicy/common/private
 
 BOARD_SEPOLICY_DIRS += \
-    device/aosip/sepolicy/common/vendor
+    device/cosmic/sepolicy/common/vendor
