@@ -1,0 +1,6 @@
+recovery_only(`
+
+# Sideload backuptool
+allow recovery self:process setexec;
+
+')
